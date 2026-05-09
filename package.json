@@ -1,12 +1,27 @@
 {
   "name": "dns-doctor",
   "version": "0.1.0",
-  "description": "A tiny CLI that diagnoses DNS for common hosting providers and prints exact fix steps.",
+  "description": "A tiny CLI that diagnoses DNS misconfigurations for Netlify custom domains and prints exact fix steps.",
+  "keywords": [
+    "dns",
+    "netlify",
+    "cli",
+    "doh",
+    "domain"
+  ],
   "license": "MIT",
   "type": "module",
   "bin": {
     "dns-doctor": "./dist/index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TechYadd/dns-doctor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TechYadd/dns-doctor/issues"
+  },
+  "homepage": "https://github.com/TechYadd/dns-doctor#readme",
   "engines": {
     "node": ">=18.0.0"
   },
